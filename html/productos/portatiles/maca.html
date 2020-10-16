@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Portátiles</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a class="active2" href="portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a href="../diseno/diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+
+	<table class="separador">
+		<tr>
+			<td class="foto">
+				<img class="bigproduct" alt="bigproduct" src="../../../images/productos/portatiles/maca1.jpg" />
+				
+			</td>
+			
+			<td class="text">
+				
+				<div class="tituloproducto">Apple Macbook Air</div>
+				<div class="precioproducto">1232,59€</div>
+				<br />
+				
+				<div class="textodescripcion">Te presentamos el fantástico portátil MacBook Air 13" de Apple.</div>
+				<div class="headerproducto">Características</div>
+				<div class="textodescripcion">odo lo que quieras. Todo el día. El MacBook Air te ofrece hasta 12 horas de autonomía con una sola carga. Vamos, que puedes encenderlo por la mañana y olvidarte de cargarlo hasta la noche. Por ejemplo, si te apetece una maratón de películas de iTunes, tienes hasta 12 largas horas por delante. Además aguanta hasta un mes en reposo, así que puedes pasarte semanas sin usarlo y estará listo cuando tú quieras.
+Fino. Ligero. Potente. Y preparado para lo que le eches. A los procesadores Intel Core i5 e i7 de quinta generación con Intel HD Graphics 6000 no hay tarea que se les resista. Desde editar fotos hasta navegar por Internet, lo hacen todo volando. Y lo increíble es que toda esta potencia cabe en un portátil de 1,7 cm de grosor y 1,35 kg de peso.
+Wi-Fi 802.11ac. Sin cables y sin enredos. Conéctalo a una estación base 802.11ac —como la AirPort Extreme o AirPort Time Capsule— y tendrás hasta el triple de velocidad que con la tecnología Wi-Fi anterior. Además la señal llega aún más lejos para que te muevas a tus anchas. Y a tus largas.
+Almacenamiento SSD. Rapidez por sistema. El almacenamiento SSD del MacBook Air es hasta 17 veces más rápido que un disco duro de 5.400 rpm. Gracias a este sistema y a los procesadores Intel Core de quinta generación, el MacBook Air se activa al instante y responde a cualquier tarea en un abrir y cerrar de ojos.
+macOS. Detrás de cada Mac está la enorme potencia del sistema operativo macOS. Con macOS Sierra, Siri aterriza en tu ordenador. Y trae muy buena compañía: nuevas formas de disfrutar de tus fotos, compras seguras en Internet y una manera mucho más cómoda de trabajar en varios dispositivos.</div>
+				<div class="headerproducto">Especificaciones Aoole MacBook Air 13"</div>
+				<div class="textodescripcion">Procesador Intel Core i5 de doble núcleo a 1.8 GHz de séptima generación
+Memoria RAM 8 GB de memoria LPDDR3 a 1.600 MHz
+Disco duro SSD PCIe 256 Gb
+Pantalla retroiluminada por LED de 13.3 pulgadas (en diagonal)
+Resolución de 1440 x 900 pixels
+Controlador gráfico Intel HD Graphics 6000
+Conectividad
+Conexión inalámbrica Wi-Fi 802.11ac; compatible con las normas 802.11a/b/g/n del IEEE
+Bluetooth 4.2 
+Cámara Frontal Facetime
+Audio
+Altavoces estéreo 
+Micrófono
+Toma para auriculares de 3,5 mm
+Conexiones
+1 x Thunderbolt 2
+2 x USB 3.1 Tipo A
+Sistema operativo macOS Sierra
+Batería integrada de polímeros de litio de 54.5 vatios/hora
+Dimensiones
+Alto: de 0,3 a 1,7 cm
+Ancho: 32,5 cm
+Fondo: 22,7 cm
+Peso: 1,35 kg
+Color Gris Espacial</div>
+				<button id="purchase" onclick="window.location.href='../purchase.html'" title="Añadir al carrito">Comprar</button>
+			</td>
+		</tr>
+	</table>
+	
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

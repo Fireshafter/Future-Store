@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Contacto</title>
+<link rel="icon" href="../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../index.html"><img src="../images/logo.png" class="logo" alt="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../index.html">Inicio</a></li>
+		<li><a href="productos.html">Productos</a></li>
+		<li><a href="checkout.html">Carrito</a></li>
+		<li><a href="spv.html">Post-venta</a></li>
+		<li><a href="about.html">Sobre nosotros</a></li>
+		<li><a class="active1" href="contact.html">Contacto</a></li>
+		<li><a href="help.html">FAQs</a></li>
+	</ul>
+		
+		
+	<table class="form">
+	<tr><td>
+	<form name="contact" method="post" action="http://audiogil.es/DAM/form/FormToEmail.php">
+		<p>
+			Nombre:
+			<input name="nombre" type="text" id="nombre" size="30" />
+		</p>
+		
+		<p>
+			Apellidos:
+			<input name="apellidos" type="text" id="apellidos" size="50" />
+		</p>
+		
+		<p>
+			Email:
+			<input name="correo" type="text" id="correo" size="60" />
+		</p>
+		<br />
+		
+		
+		<p>Mensaje:</p>
+		<p>
+		<textarea name="mensaje" cols="100" rows="8" id="mensaje"></textarea>
+		</p>
+		<br />
+		
+		
+		<p> 
+		<label>¿Has comprado ya?</label>
+		<label> 
+		<input name="comprador" type="radio" value="comprador" checked />
+		SI</label>
+		<label> 
+		<input name="comprador" type="radio" value="mierdecilla" />
+		NO</label>
+		</p>
+		
+		<p>
+		Contacto por: 
+		<select name="consulta" id="consulta">
+			<option value="return">Quiero una devolución</option>
+			<option value="rata">Lo he encontrado mas barato</option>
+			<option value="flipao">Descuento para empresas</option>
+			<option value="error">Informacion errónea en producto</option>
+			<option value="autismo">Me aburría</option>
+			<option value="grati">Vaciar carrito</option>
+		</select>
+		</p>
+		
+		<input type="hidden" name="email"   value="alu20916915w@ieselcaminas.org" />
+		
+		 <p> 
+			<input type="submit" name="Submit" value="Enviar" />
+			<input type="reset" name="Submit2" value="Restablecer" />
+		</p>
+		
+	</form>
+	</td></tr>
+	</table>
+	
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

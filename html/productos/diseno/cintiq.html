@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Diseño Gráfico</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a href="../portatiles/portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a class="active2" href="diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+
+	<table class="separador">
+		<tr>
+			<td class="foto">
+				<img class="bigproduct" alt="bigproduct" src="../../../images/productos/diseno/cintiq.gif" />
+				<a href="../../../images/productos/diseno/cintiq1.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/cintiq1.jpg" /></a>
+				<a href="../../../images/productos/diseno/cintiq2.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/cintiq2.jpg" /></a>
+			</td>
+			
+			<td class="text">
+				
+				<div class="tituloproducto">Wacom Cintiq 13HD</div>
+				<div class="precioproducto">720,87€</div>
+				<br />
+				
+				<div class="textodescripcion">Experimenta tu creatividad de una manera natural, directamente en la pantalla compacta Full HD de Cintiq.</div>
+				<div class="headerproducto">Características</div>
+				<div class="textodescripcion">Adopta una posición de trabajo cómoda gracias a su versatilidad.
+Todo con el poderoso lápiz Pro Pen. 
+Con 2048 niveles de sensibilidad a la presión, reconocimiento de inclinación y un diseño ergonómico nuevo y más cómodo, el lápiz Pro Pen brinda un control preciso y una mejor sensación.
+Y una manera fácil de llevarlo contigo. 
+El estuche de transporte compacto del lápiz Pro Pen incluye un espacio para puntas y 
+anillos de colores que ayudan a diferenciar fácilmente entre varios lápices.
+Fácil de instalar en qualquier PC o Mac. 
+El práctico cable 3 en 1 reduce el desorden en los cables y simplifica la configuración en cualquier equipo Mac o PC.</div>
+				<div class="headerproducto">Especificaciones</div>
+				<div class="textodescripcion">Screen size (measured diagonally)13.3 inch
+Technologya-Si Active Matrix TFT LCD (IPS)
+ResolutionFull HD 1920 X 1080
+Displayable colors (maximum)16.7 million
+Aspect ratio16:09:00
+Viewing angle178° (89°/89°) H, (89°/89°) V
+Contrast Ratio700:1
+Brightness250 cd/m2
+Response Rate25 ms
+Active area293.8 x 165.2mm
+Color Gamut75% Adobe RGB
+Industry standard pre-sets6500° K whitepoint default
+Graphics InputHDMI
+PenPro Pen
+Pressure Levels2048, both pen tip and eraser
+Tilt Range40 degrees
+Tilt recognition±60 levels
+Type)Pressure-sensitive, cordless, battery-free)
+SwitchesTip switch, 2 side switches, eraser
+Nibs5 standard, 3 felt, 1 stroke
+Pen boxYes
+Pen standYes
+GripLatex-free silicone rubber
+ModelFUZ-A203
+TechnologyPatented electromagnetic resonance method
+Resolution5080 lines per inch
+ExpressKeys™4 customizable, application-specific
+Rocker ring and Home button4 position customizable
+Radial menuYes
+Precison modeYes
+Display toggleYes
+Stand adjustability3 angles and detachable
+OrientationRight or left-handed use
+Size375 x 248 x 14mm
+Weight1.2 kg
+Cables includedWacom 3-in-1
+PC and Mac connectionHDMI and USB
+Display ConnectionWacom 3-in-1
+Peripheral connectionsUSB 2.0 port
+100 to 240 VAC, 50/60Hz19 VDC, 1.58 A (max)
+Power Supply Output19 VDC, 1.58 A (max)
+Power ConsumptionMax. Power Consumption: 9.0 W, 1 W or less when asleep 0.5 W or less when off
+System requirements
+Windows® 8, 7 (SP1, 32 / 64 bit), Vista SP2, XP SP3
+Mac: OS X, v 10.6.8 or later (Intel processor)</div>
+				<button id="purchase" onclick="window.location.href='../purchase.html'" title="Añadir al carrito">Comprar</button>
+			</td>
+		</tr>
+	</table>
+	
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

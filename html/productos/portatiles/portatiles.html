@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Portátiles</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a class="active2" href="portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a href="../diseno/diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+	<br />
+	<h2>P O R T Á T I L E S</h2>
+	<hr />
+	
+
+	<div class="responsive">
+		<a href="hp.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/hp1.jpg" alt="HP Pavilion Power 15" class="producto"/>
+				<div class="desc"><h3>HP Pavilion Power 15"</h3><div class="precio">999€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="idea.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/idea1.jpg" alt="Lenovo Ideapad 530S" class="producto"/>
+				<div class="desc"><h3>Lenovo Ideapad 530S</h3><div class="precio">799€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="maca.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/maca1.jpg" alt="Apple Macbook Air" class="producto"/>
+				<div class="desc"><h3>Apple Macbook Air</h3><div class="precio">1232,59€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="macp.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/macp1.jpg" alt="Apple Macbook Pro 13" class="producto"/>
+				<div class="desc"><h3>Apple Macbook Pro 13"</h3><div class="precio">1806,59€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="mi.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/mi1.jpg" alt="Xiaomi Mi Air 13" class="producto"/>
+				<div class="desc"><h3>Xiaomi Mi Air 13"</h3><div class="precio">899€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="msi.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/msi1.jpg" alt="MSI GE63 Raider RGB" class="producto"/>
+				<div class="desc"><h3>MSI GE63 Raider RGB</h3><div class="precio">1699€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="prestige.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/prestige1.jpg" alt="MSI PS42 Prestige" class="producto"/>
+				<div class="desc"><h3>MSI PS42 Prestige</h3><div class="precio">1199€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="swf.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/swf1.jpg" alt="Acer Swift 5 14" class="producto"/>
+				<div class="desc"><h3>Acer Swift 5 14"</h3><div class="precio">962,59€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="think.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/think1.jpg" alt="Lenovo Thinkpad X1" class="producto"/>
+				<div class="desc"><h3>Lenovo Thinkpad X1</h3><div class="precio">1576,05€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="responsive">
+		<a href="dell.html">
+			<div class="product">
+				<img src="../../../images/productos/portatiles/dell1.jpg" alt="Dell Inspiron 5378" class="producto"/>
+				<div class="desc"><h3>Dell Inspiron 5378</h3><div class="precio">857,59€</div></div>
+			</div>
+		</a>
+	</div>
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

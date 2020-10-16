@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Portátiles</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a class="active2" href="portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a href="../diseno/diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+
+	<table class="separador">
+		<tr>
+			<td class="foto">
+				<img class="bigproduct" alt="bigproduct" src="../../../images/productos/portatiles/swf.gif" />
+				<a href="../../../images/productos/portatiles/swf1.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/portatiles/swf1.jpg" /></a>
+				<a href="../../../images/productos/portatiles/swf2.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/portatiles/swf2.jpg" /></a>
+				<a href="../../../images/productos/portatiles/swf3.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/portatiles/swf3.jpg" /></a>
+				<a href="../../../images/productos/portatiles/swf4.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/portatiles/swf4.jpg" /></a>
+			</td>
+			
+			<td class="text">
+				
+				<div class="tituloproducto">Acer Swift 5 14"</div>
+				<div class="precioproducto">962,59€</div>
+				<br />
+				
+				<div class="textodescripcion">Te presentamos el Swift 5 de Acer, un portátil con procesador Intel Core i5, 8GB de RAM, 256GB SSD de disco duro y pantalla de 14" tactil, y menos de un kilo de peso!</div>
+				<div class="headerproducto">Especificaciones</div>
+				<div class="textodescripcion">Procesador Intel® Core i5-8250U (1.6 GHz, 6 MB)
+Memoria RAM 8GB LPDDR3
+Disco duro 256GB SSD 
+Almacenamiento óptico NO DISPONE
+Display 14" LED FullHD (1920 x 1080) 16:9 Táctil
+Controlador gráfico Intel HD Graphics 620
+Conectividad
+WiFi 802.11 ac
+Bluetooth 4.0
+Cámara de portátil Sí
+Micrófono Sí
+Batería 2 celdas Ion de litio
+Conexiones
+1 x HDMI
+1 x Combo Audio
+2 x USB 3.0
+1 x USB 3.1 Type-C
+Sistema operativo Microsoft Windows 10 64bits
+Dimensiones (Ancho x Profundidad x Altura)  381.3 x 257 x 27.4 ~ 33mm
+Peso  0.97 kg 
+Color Azul</div>
+				<button id="purchase" onclick="window.location.href='../purchase.html'" title="Añadir al carrito">Comprar</button>
+			</td>
+		</tr>
+	</table>
+	
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

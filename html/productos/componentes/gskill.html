@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Portátiles</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a href="../portatiles/portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a class="active2" href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a href="../diseno/diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+
+	<table class="separador">
+		<tr>
+			<td class="foto">
+				<img class="bigproduct" alt="bigproduct" src="../../../images/productos/componentes/gskill.gif" />
+				<a href="../../../images/productos/componentes/gskill1.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/componentes/gskill1.jpg" /></a>
+				<a href="../../../images/productos/componentes/gskill2.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/componentes/gskill2.jpg" /></a>
+				<a href="../../../images/productos/componentes/gskill3.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/componentes/gskill3.jpg" /></a>
+				<a href="../../../images/productos/componentes/gskill4.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/componentes/gskill4.jpg" /></a>
+			</td>
+			
+			<td class="text">
+				
+				<div class="tituloproducto">G.Skill Trident Z DDR4 2X8GB</div>
+				<div class="precioproducto">175€</div>
+				<br />
+				
+				<div class="textodescripcion">La nueva gama de memorias RAM G.Skill Trident Z RGB ofrece soluciones para un rendimiento increíble. Estos kits optimizan el rendimiento de las plataformas de nueva generación, con la ventaja añadida de un alto potencial de overclocking. Además, estas rápidas memorias incorporan un sistema de iluminación LED RGB con hasta 16.8 millones de colores con varios modos de iluminación por software. Simplemente pincha la memoria Trident Z RGB en tu placa basey disfruta de la iluminación.
+
+La compañía G.Skill, gracias a un intenso trabajo de I+D durante sus más de 25 años de historia, ha diseñado y fabricado las memorias Trident Z RGB para el overclocking y el gaming más exigente. Con un PCB de alta calidad de 10 capas, un disipador denso de aluminio para una óptima temperatura, los mejores chips de memoria seleccionados a mano y la tecnología Intel XMP 2.0 para un overclocking sencillo, estas memorias te darán el rendimiento que necesitas en tu sistema, tanto si vas a hacer overclocking como si vas a jugar.</div>
+				<div class="headerproducto">Características</div>
+				<div class="textodescripcion">Alto rendimiento.
+Iluminación RGB por software de hasta 16.8 millones de colores.
+Optimizadas para la nueva generación de procesadores y placas base.
+Diseñadas y fabricadas con los mejores componentes para los sistemas más exigente en overcloking o gaming.</div>
+				<div class="headerproducto">Especificaciones</div>
+				<div class="textodescripcion">Tipo de la memoria DDR4
+Capacidad 16GB (2x8GB)
+Multi-Channel Kit de doble canal
+Velocidad Probada 3200MHz
+Latencia Probada  16-18-18-38
+Voltaje Probada 1.35v
+Dimensiones 16 x 13,7 x 1.4 cm
+Peso 186g</div>
+				<button id="purchase" onclick="window.location.href='../purchase.html'" title="Añadir al carrito">Comprar</button>
+			</td>
+		</tr>
+	</table>
+	
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>

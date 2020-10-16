@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>Futuretech Store - Diseño Gráfico</title>
+<link rel="icon" href="../../../images/logo.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css"/>
+</head>
+
+<body>
+	<table class="titulo">
+		<tr>
+			<td><a href="../../../index.html"><img src="../../../images/logo.png" alt="logo" class="logo" /></a></td>
+			<td><h1>FUTURETECH STORE</h1></td>
+		</tr>
+	</table>
+		
+	<ul class="horizontal">
+		<li><a href="../../../index.html">Inicio</a></li>
+		<li><a class="active1" href="../../productos.html">Productos</a></li>
+		<li><a href="../../checkout.html">Carrito</a></li>
+		<li><a href="../../spv.html">Post-venta</a></li>
+		<li><a href="../../about.html">Sobre nosotros</a></li>
+		<li><a href="../../contact.html">Contacto</a></li>
+		<li><a href="../../help.html">FAQs</a></li>
+	</ul>
+	
+	<ul class="submenu">
+		<li><a href="../portatiles/portatiles.html">Portátiles</a></li>	
+		<li><a href="../sobremesas/sobremesas.html">Sobremesas</a></li>	
+		<li><a href="../componentes/componentes.html">Componentes</a></li>	
+		<li><a href="../monitores/monitores.html">Monitores</a></li>	
+		<li><a href="../teclados/teclados.html">Teclados</a></li>	
+		<li><a href="../ratones/ratones.html">Ratones</a></li>	
+		<li><a class="active2" href="diseno.html">Diseño Gráfico</a></li>	
+	</ul>
+	
+
+	<table class="separador">
+		<tr>
+			<td class="foto">
+				<img class="bigproduct" alt="bigproduct" src="../../../images/productos/diseno/basic.gif" />
+				<a href="../../../images/productos/diseno/basic1.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/basic1.jpg" /></a>
+				<a href="../../../images/productos/diseno/basic2.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/basic2.jpg" /></a>
+				<a href="../../../images/productos/diseno/basic3.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/basic3.jpg" /></a>
+				<a href="../../../images/productos/diseno/basic4.jpg"><img class="smallproduct" alt="smallproduct" src="../../../images/productos/diseno/basic4.jpg" /></a>
+			</td>
+			
+			<td class="text">
+				
+				<div class="tituloproducto">Wacom Intuos Basic S</div>
+				<div class="precioproducto">69,99€</div>
+				<br />
+				
+				<div class="textodescripcion">Desata tu creatividad con la nueva Intuos. Incluye la tecnología de tableta y lápiz líder de Wacom, software creativo descargable gratuito y cursos de formación en línea. Independientemente de que tu sueño sea comenzar una carpeta de trabajos, acumular algunos ‘Me gusta’ o superar los límites de la creatividad, Intuos tiene todo lo que necesitas para que suceda.</div>
+				<div class="headerproducto">Características</div>
+				<div class="textodescripcion">Estás más cerca de lo que piensas: Cualquiera sea tu estilo creativo o nivel de habilidad, Intuos puede ayudarte a alcanzar el próximo nivel. Con cuatro versiones diferentes, nadie podrá equipararte ni igualar tu trabajo creativo con exactitud.
+Crea algo increíble: Tengas las ambiciones artísticas que tengas, Intuos puede ayudarte a alcanzarlas. Con un atractivo diseño y muy sencilla de usar, cada pen tablet se acompaña de un paquete creativo gratuito que incluye también software descargable, servicios y tutoriales interactivos en línea.
+Creatividad sin límites: Lleva tus habilidades al siguiente nivel. Con el lápiz Intuos en la mano, puedes alternar fácilmente entre pasteles, lápices y herramientas de edición de fotos. Controlar tu tableta no puede ser más fácil.
+Software creativo para ponerte en marcha: No importa lo que hagas —dibujos, pinturas, fotografías o cómics— cada pen tablet Intuos viene con un software creativo líder en la industria para que hagas lo que deseas. Enchufa tu tableta y descárgalo para comenzar.
+Lista para un inicio rápido: Comenzar no puede ser más simple. Conecta un USB simple a la Mac o PC. Instala el controlador de software y está lista para comenzar. Con la ayuda de tutoriales en línea, comenzarás a crear en poco tiempo.</div>
+				<div class="headerproducto">Especificaciones</div>
+				<div class="textodescripcion">Medidas 16 x 0.9 x 20cm
+Serie Basic Pen S
+Color Negro
+Peso 231gr</div>
+				<button id="purchase" onclick="window.location.href='../purchase.html'" title="Añadir al carrito">Comprar</button>
+			</td>
+		</tr>
+	</table>
+	
+
+	<button onclick="topFunction()" id="botonTop" title="Volver arriba">Top</button>
+	
+	<script>
+		// Cuando el usuario baja 175px (punto activación sticky) se muestra el botón
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 175 || document.documentElement.scrollTop > 175) {
+				document.getElementById("botonTop").style.display = "block";
+			}
+			
+			else {
+				document.getElementById("botonTop").style.display = "none";
+			}
+		}
+
+		// Cuando se pulsa el botón se vuelve al inicio de la página
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+	<ul class="social">
+		<li><a href="https://www.instagram.com"><img src="../../../images/instagram.png" alt="instagram-logo" /></a></li>
+		<li><a href="https://www.facebook.com"><img src="../../../images/facebook.png" alt="facebook-logo" /></a></li>
+		<li><a href="https://www.twitter.com"><img src="../../../images/twitter.png" alt="twitter-logo" /></a></li>
+		<li><a href="https://www.youtube.com"><img src="../../../images/youtube.png" alt="youtube-logo" /></a></li>
+	</ul>
+	
+</body>
+
+</html>
